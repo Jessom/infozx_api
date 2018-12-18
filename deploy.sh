@@ -8,7 +8,7 @@ vuepress build docs
 # npm run docs:build
 
 # 编译项目
-# npm run build
+npm run build
 
 # 进入生成的文件夹
 # cd docs/.vuepress/dist

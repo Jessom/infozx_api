@@ -1,21 +1,25 @@
-# infozx
-
-> A Vue.js project
+# 中系科技组件API
 
 ## Build Setup
 
-``` bash
-# install dependencies
+```bash
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 开发环境
 npm run dev
 
-# build for production with minification
+# 编译
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+# 编写文档
+npm run docs:dev
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 编译文档
+npm run docs:build
+
+# 编译项目 && 编译文档 && 提交码云
+npm run deploy
+# or
+bash deploy.sh
+```
