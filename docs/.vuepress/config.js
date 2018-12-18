@@ -3,7 +3,7 @@ module.exports = {
   description: 'わタしの ブログ', //描述
   dest: './api',   // 设置输出目录
   port: 2233, //端口
-  base: '/infozx_api/',
+  base: '/infozx_api/api/',
   themeConfig: { //主题配置
     // 假定 GitHub。也可以是一个完整的 GitLab 网址
     repo: 'https://gitee.com/watasi/infozx_api',
