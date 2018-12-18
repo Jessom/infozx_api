@@ -1,6 +1,6 @@
 # BasicHeader
 [Demo](http://infozx.gitee.io/infozx_temp/dist/module/basicHead.html)
-::: warning 提示
+::: tip 提示
 不推荐使用该组件，建议使用 **`openWindowWithTitle`** 方法
 :::
 
@@ -38,3 +38,23 @@ export default {
 }
 </script>
 ```
+
+## props
+|参数名|类型|默认值|描述|
+|:---:|:---:|:---:|:---:|
+|options|Object|-|配置参数, [查看options详情](#options)|
+
+### options
+|参数名|类型|默认值|描述|
+|:---:|:---:|:---:|:---:|
+|title|String|''|标题|
+|isBack|Boolean|true|是否显示返回按钮|
+|wechat|Boolean|app为true, pc为false|是否显示head组件|
+|btns|Array|-|按钮配置, [查看btns详情](#btns)|
+
+### btns
+|参数名|类型|默认值|描述|
+|:---:|:---:|:---:|:---:|
+|title|String|-|显示内容, `注：设置title后，不显示icon图标`|
+|icon|String|-|图标|
+|event|Function|-|按钮点击事件|

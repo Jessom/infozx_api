@@ -2,7 +2,7 @@
 home: true
 heroImage: http://qicloud.jswei.cn/images/logo.png
 actionText: はじまる
-actionLink: /com/
+actionLink: /components/
 features:
 - title: コンポーネント
   details: 最常用のコンポーネントを提供して、速やかにページを作成します
