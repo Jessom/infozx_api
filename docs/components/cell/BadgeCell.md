@@ -1,5 +1,5 @@
 # BadgeCell
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/badgeCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/badgeCell.html)
 > 徽章
 
 ## 示例

@@ -1,5 +1,5 @@
 # WeekCalendar
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/weekCalendar.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/weekCalendar.html)
 > 周日历
 
 ```bash

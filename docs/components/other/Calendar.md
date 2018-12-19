@@ -1,5 +1,5 @@
 # Calendar
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/calendar.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/calendar.html)
 > 日历
 
 ::: tip 文档

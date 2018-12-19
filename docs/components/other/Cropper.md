@@ -1,5 +1,5 @@
 # Cropper
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/cropper.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/cropper.html)
 
 ::: tip 裁切组件
 该组件依赖[cropperjs](https://github.com/fengyuanchen/cropperjs)

@@ -1,5 +1,5 @@
 # TrainTickets
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/trainTickets.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/trainTickets.html)
 > 火车票
 
 ## 示例

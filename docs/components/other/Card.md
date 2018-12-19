@@ -1,5 +1,5 @@
 # Card
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/card.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/card.html)
 > 我也不知道有啥用，让写就写呗
 
 ## 示例

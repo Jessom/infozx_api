@@ -1,5 +1,5 @@
 # BlendCell
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/blendCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/blendCell.html)
 > 图文混排cell
 
 ## 示例

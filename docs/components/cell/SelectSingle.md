@@ -1,5 +1,5 @@
 # SelectSingle
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/selectSingle.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/selectSingle.html)
 > 单选
 
 ## 示例

@@ -14,32 +14,32 @@ export default new Router({
     {
       path: '/addCutImgButton',
       name: 'addCutImgButton',
-      component: resolve => require(['@/views/button/AddCutImgButton.vue'], resolve)
+      component: resolve => require(['@/views/button/addCutImgButton.vue'], resolve)
     },
     {
       path: '/addImgButton',
       name: 'AddImgButton',
-      component: resolve => require(['@/views/button/AddImgButton.vue'], resolve)
+      component: resolve => require(['@/views/button/addImgButton.vue'], resolve)
     },
     {
       path: '/basicButton',
       name: 'BasicButton',
-      component: resolve => require(['@/views/button/BasicButton.vue'], resolve)
+      component: resolve => require(['@/views/button/basicButton.vue'], resolve)
     },
     {
       path: '/bubbleButton',
       name: 'BubbleButton',
-      component: resolve => require(['@/views/button/BubbleButton.vue'], resolve)
+      component: resolve => require(['@/views/button/bubbleButton.vue'], resolve)
     },
     {
       path: '/multiButton',
       name: 'MultiButton',
-      component: resolve => require(['@/views/button/MultiButton.vue'], resolve)
+      component: resolve => require(['@/views/button/multiButton.vue'], resolve)
     },
     {
       path: '/shopButton',
       name: 'ShopButton',
-      component: resolve => require(['@/views/button/ShopButton.vue'], resolve)
+      component: resolve => require(['@/views/button/shopButton.vue'], resolve)
     },
     // cell
     {
@@ -226,6 +226,11 @@ export default new Router({
       path: '/cropper',
       name: 'cropper',
       component: resolve => require(['@/views/other/cropper.vue'], resolve)
+    },
+    {
+      path: '/draw',
+      name: 'draw',
+      component: resolve => require(['@/views/other/draw.vue'], resolve)
     },
     {
       path: '/pickerSelect',

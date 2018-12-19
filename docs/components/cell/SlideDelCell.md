@@ -1,5 +1,5 @@
 # SlideDelCell
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/slideDelCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/slideDelCell.html)
 > 右滑删除
 
 ## 示例

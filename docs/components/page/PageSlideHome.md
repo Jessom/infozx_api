@@ -1,5 +1,5 @@
 # PageSlideHome
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/first.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/first.html)
 
 ::: warning 警告
 使用该组件，请先在`page home`的`html`文件中引用一下代码 <br />

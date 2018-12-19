@@ -1,5 +1,5 @@
 # AddImgButton
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/addImgButton.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/addImgButton)
 > 添加图片组件(没有裁切功能)
 
 ## 示例

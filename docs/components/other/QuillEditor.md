@@ -1,5 +1,5 @@
 # QuillEditor
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/quillEditor.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/quillEditor.html)
 > 富文本编辑器
 
 ```bash

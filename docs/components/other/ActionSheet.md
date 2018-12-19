@@ -1,5 +1,5 @@
 # ActionSheet
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/actionSheet.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/actionSheet.html)
 > 操作表
 
 ## 示例

@@ -1,5 +1,5 @@
 # Sort
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/sort.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/sort.html)
 > 排序组件
 
 ## 示例

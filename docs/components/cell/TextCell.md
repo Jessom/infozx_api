@@ -1,5 +1,5 @@
 # TextCell
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/textCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/textCell.html)
 > 纯文本cell
 
 ## 示例

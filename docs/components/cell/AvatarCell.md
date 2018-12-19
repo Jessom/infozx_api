@@ -1,5 +1,5 @@
 # AvatarCell
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/avatarCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/avatarCell.html)
 
 ## 示例
 ``` vue{18}

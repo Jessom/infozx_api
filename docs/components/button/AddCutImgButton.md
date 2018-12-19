@@ -1,5 +1,5 @@
 # AddCutImgButton
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/addCutImgButton.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/addCutImgButton)
 >带有裁切功能的图片选择组件
 
 ## 示例

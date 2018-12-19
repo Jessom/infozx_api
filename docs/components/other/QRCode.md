@@ -1,5 +1,5 @@
 # QRCode
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/qrcode.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/qrcode.html)
 > 生成二维码
 
 ```bash

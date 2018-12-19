@@ -1,5 +1,5 @@
 # PickerSelect2
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/pickerSelect2.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/pickerSelect2.html)
 > 可以选择员工
 
 ## 示例

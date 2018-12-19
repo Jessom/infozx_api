@@ -1,5 +1,5 @@
 # ShopButton
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/shopButton.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/shopButton.html)
 > 商城按钮组
 
 ## 示例

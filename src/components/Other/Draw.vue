@@ -1,6 +1,6 @@
 <template>
   <div>
-    <canvas id='canvas' :height="height"></canvas>
+    <canvas id='canvas' :height="opt.height"></canvas>
   </div>
 </template>
  

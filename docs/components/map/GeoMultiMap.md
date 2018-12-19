@@ -1,5 +1,5 @@
 # GeoMultiMap
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/geoMultiMap.html) <br />
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/geoMultiMap.html) <br />
 
 ```bash
 cnpm install --save vue-amap

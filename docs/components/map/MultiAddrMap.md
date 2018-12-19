@@ -1,5 +1,5 @@
 # MultiAddrMap
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/multiAddrMap.html) <br />
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/multiAddrMap.html) <br />
 
 ```bash
 cnpm install --save vue-amap

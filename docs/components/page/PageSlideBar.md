@@ -1,5 +1,5 @@
 # PageSlideBar
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/first.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/first.html)
 
 ::: tip 提示
 请配合[PageSlideHome](./PageSlideHome.html)组件使用

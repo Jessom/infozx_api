@@ -1,5 +1,5 @@
 # Fgroup
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/fgroup.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/fgroup.html)
 > 通讯录组件
 
 ```html

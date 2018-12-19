@@ -1,5 +1,5 @@
 # BasicButton
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/basicButton.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/basicButton.html)
 > 商城按钮组
 
 ## 示例

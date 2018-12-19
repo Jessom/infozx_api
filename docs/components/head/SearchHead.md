@@ -1,5 +1,5 @@
 # SearchHead
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/searchHead.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/searchHead.html)
 ::: warning 警告 
 截止目前，扫码功能还没添加
 :::

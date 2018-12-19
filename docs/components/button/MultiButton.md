@@ -1,5 +1,5 @@
 # MultiButton
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/multiButton.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/multiButton.html)
 > 多功能button组件
 
 ## 示例

@@ -1,5 +1,5 @@
 # SideItem
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/sideItem.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/sideItem.html)
 > 侧滑面板内容
 
 ## 示例

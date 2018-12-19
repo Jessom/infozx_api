@@ -1,5 +1,5 @@
 # PickerSelect3
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/pickerSelect3.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/pickerSelect3.html)
 > 可以选择员工，部门，自己，全部
 
 ## 示例

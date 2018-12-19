@@ -1,5 +1,5 @@
 # Line
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/line.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/line.html)
 
 ```bash
 cnpm install v-charts echarts -save

@@ -2,7 +2,7 @@
 ::: tip 提示
 使用该组件时，建议使用[BasicHead](../head/basichead.html)组件
 :::
-[Demo](http://infozx.gitee.io/infozx_temp/dist/module/choiseMark.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/choiseMark.html)
 
 ## 示例
 ```vue{15}
