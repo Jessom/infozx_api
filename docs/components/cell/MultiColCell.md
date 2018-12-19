@@ -1,5 +1,5 @@
 # MultiColCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/multiColCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/multiColCell)
 
 ## 示例
 ``` vue{10}

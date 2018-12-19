@@ -1,11 +1,11 @@
 # BarChart
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/bar.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/bar)
 ```bash
 cnpm install --save echarts vue-echarts-v3
 ```
 
 ::: tip 柱状图表
-请多多参阅[官方文档](http://echarts.baidu.com/option3.html#title)
+请多多参阅[官方文档](http://echarts.baidu.com/option3#title)
 :::
 
 ## 示例
@@ -121,7 +121,7 @@ export default {
 |list|Array|-|**必须**，图表渲染数据，[查看list](#list)|
 
 ### title
-[官方文档](http://echarts.baidu.com/option3.html#title)
+[官方文档](http://echarts.baidu.com/option3#title)
 
 |参数名|类型|默认值|描述|
 |:---:|:---:|:---:|:---:|
@@ -129,13 +129,13 @@ export default {
 |x|String|center|对齐方式|
 
 ### xAxis
-[官方文档](http://echarts.baidu.com/option3.html#xAxis)
+[官方文档](http://echarts.baidu.com/option3#xAxis)
 
 ### yAxis
-[官方文档](http://echarts.baidu.com/option3.html#yAxis)
+[官方文档](http://echarts.baidu.com/option3#yAxis)
 
 ### legend
-[官方文档](http://echarts.baidu.com/option3.html#legend)
+[官方文档](http://echarts.baidu.com/option3#legend)
 
 |参数名|类型|默认值|描述|
 |:---:|:---:|:---:|:---:|
@@ -144,7 +144,7 @@ export default {
 |data|Array|-|默认值通过内部方法获取`list`中的`name`属性|
 
 ### list
-[官方文档](http://echarts.baidu.com/option3.html#series)
+[官方文档](http://echarts.baidu.com/option3#series)
 
 |参数名|类型|默认值|描述|
 |:---:|:---:|:---:|:---:|

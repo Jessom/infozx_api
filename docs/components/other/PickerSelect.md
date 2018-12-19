@@ -1,5 +1,5 @@
 # PickerSelect
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/pickerSelect.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/pickerSelect)
 > 选部门
 
 ## 示例

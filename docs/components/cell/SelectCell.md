@@ -1,5 +1,5 @@
 # SelectCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/selectCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/selectCell)
 > 多选
 
 ## 示例

@@ -1,5 +1,5 @@
 # CenterCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/centerCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/centerCell)
 > 居中cell
 
 ## 示例

@@ -1,5 +1,5 @@
 # VerticalAxis
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/verticalAxis.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/verticalAxis)
 > 时间轴
 
 ## 示例

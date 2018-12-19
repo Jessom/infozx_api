@@ -1,5 +1,5 @@
 # ProgressChart
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/progressChart.html) <br />
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/progressChart) <br />
 
 ::: warning 警告
 该组件不依赖`echarts`，而是依赖阿里的`f2js` <br />
@@ -10,7 +10,7 @@
 ```
 
 ::: tip 环形进度条
-[官方文档](https://antv.alipay.com/zh-cn/f2/3.x/index.html)
+[官方文档](https://antv.alipay.com/zh-cn/f2/3.x/index)
 :::
 
 ## 示例
@@ -74,7 +74,7 @@ export default {
 |arcStyle|Object|-|表头，[查看title](#title)|
 
 ### coord
-[官方文档](https://antv.alipay.com/zh-cn/f2/3.x/api/chart.html#_coord)
+[官方文档](https://antv.alipay.com/zh-cn/f2/3.x/api/chart#_coord)
 
 |参数名|类型|默认值|描述|
 |:---:|:---:|:---:|:---:|
@@ -83,7 +83,7 @@ export default {
 |radius|Number|0.85|设置圆的半径，相对值，0 至 1 范围|
 
 ### arcStyle
-[官方文档](https://antv.alipay.com/zh-cn/f2/3.x/api/chart.html#_coord)
+[官方文档](https://antv.alipay.com/zh-cn/f2/3.x/api/chart#_coord)
 
 |参数名|类型|默认值|描述|
 |:---:|:---:|:---:|:---:|

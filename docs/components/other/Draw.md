@@ -1,5 +1,5 @@
 # Draw
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/draw.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/draw)
 > 移动端签名
 
 ## 示例

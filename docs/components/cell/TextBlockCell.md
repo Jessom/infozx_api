@@ -1,5 +1,5 @@
 # TextBlockCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/textBlockCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/textBlockCell)
 
 ## 示例
 ``` vue{10}

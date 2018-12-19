@@ -1,14 +1,17 @@
 # PageSlideHome
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/first.html)
 
 ::: warning 警告
 使用该组件，请先在`page home`的`html`文件中引用一下代码 <br />
 该组件**`仅在APP下有效`** <br />
-请配合[PageSlideBar](./PageSlideBar.html)组件使用
+请配合[PageSlideBar](./PageSlideBar)组件使用
 :::
 ```html
 <script src="../static/common/mui/js/webviewGroup.js" charset="utf-8"></script>
 ```
+
+::: warning 警告
+因为是`单页面`写的，所有没有demo了
+:::
 
 ## 示例
 ```vue{8}
@@ -25,21 +28,21 @@ import handler from '../handler'
 export default {
 	data() {
 		return {
-			active: 'first.html',
+			active: 'first',
 			pagehome: {
 				list: [{
-					id: 'first.html',
-					url: 'first.html',
+					id: 'first',
+					url: 'first',
 					title: '未处理',
 					extras: {}
 				}, {
-					id: 'second.html',
-					url: 'second.html',
+					id: 'second',
+					url: 'second',
 					title: '已通过',
 					extras: {}
 				}, {
-					id: 'third.html',
-					url: 'third.html',
+					id: 'third',
+					url: 'third',
 					title: '已退回',
 					extras: {}
 				}]

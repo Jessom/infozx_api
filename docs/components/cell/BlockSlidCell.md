@@ -1,5 +1,5 @@
 # BlockSlidCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/blockSlidCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/blockSlidCell)
 > 块状可左右滑动cell
 
 ## 示例

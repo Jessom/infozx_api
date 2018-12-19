@@ -1,5 +1,5 @@
 # Choise
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/choise.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/choise)
 
 ## 示例
 ```vue{9}

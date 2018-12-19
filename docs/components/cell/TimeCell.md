@@ -1,5 +1,5 @@
 # TimeCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/timeCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/timeCell)
 > 时间cell
 
 ## 示例

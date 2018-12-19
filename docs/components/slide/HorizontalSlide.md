@@ -1,5 +1,5 @@
 # HorizontalSlide
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/horizontalSlide.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/horizontalSlide)
 > 水平滚动轮播图
 
 ## 示例

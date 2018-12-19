@@ -1,8 +1,8 @@
 # ChoiseMark
 ::: tip 提示
-使用该组件时，建议使用[BasicHead](../head/basichead.html)组件
+使用该组件时，建议使用[BasicHead](../head/basichead)组件
 :::
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/choiseMark.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/choiseMark)
 
 ## 示例
 ```vue{15}
@@ -138,7 +138,7 @@ export default {
 |list|Array|-|渲染数据，必须包含`title`、`active`属性|
 
 ### bhopt
-请参考[BasicHead](../head/BasicHead.html)组件<br />
+请参考[BasicHead](../head/BasicHead)组件<br />
 默认值
 ```javascript
 {
@@ -153,14 +153,14 @@ export default {
 ```
 
 ### bbopt
-请参考[BasicButton](../button/BasicButton.html)组件<br />
+请参考[BasicButton](../button/BasicButton)组件<br />
 默认值
 ```javascript
 { list: [{ title: '确定' }] }
 ```
 
 ### spopt
-请参考[SidePanel](./SidePanel.html)组件<br />
+请参考[SidePanel](./SidePanel)组件<br />
 默认值
 ```javascript
 {

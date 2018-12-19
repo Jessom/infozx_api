@@ -1,5 +1,5 @@
 # Gauge
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/gauge.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/gauge)
 
 ```bash
 cnpm install v-charts echarts -save

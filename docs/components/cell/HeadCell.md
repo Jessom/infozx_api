@@ -1,5 +1,5 @@
 # HeadCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/headCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/headCell)
 > cell列表的头部
 
 ## 示例

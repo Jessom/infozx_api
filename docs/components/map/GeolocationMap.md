@@ -1,5 +1,5 @@
 # GeolocationMap
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/gelocationMap.html) <br />
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/gelocationMap) <br />
 
 ```bash
 cnpm install --save vue-amap
@@ -9,7 +9,7 @@ cnpm install --save vue-amap
 请多多参阅[官方文档](http://lbs.amap.com/api/javascript-api/reference/map) <br />
 :::
 
-[IOS定位不准解决方法](../../js/geolocation.html)
+[IOS定位不准解决方法](../../js/geolocation)
 
 ::: warning 警告
 使用该组件时，请在对应的js中加入以下代码

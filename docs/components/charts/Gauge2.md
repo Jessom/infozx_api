@@ -1,11 +1,11 @@
 # Gauge2
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/gauge2.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/gauge2)
 
 ```bash
 cnpm install v-charts echarts -save
 ```
 ::: tip 仪表盘
-请多多参阅[官方文档](http://echarts.baidu.com/option.html#series-gauge.type)
+请多多参阅[官方文档](http://echarts.baidu.com/option#series-gauge.type)
 :::
 
 ## 示例

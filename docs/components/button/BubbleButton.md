@@ -1,5 +1,5 @@
 # BubbleButton
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/bubbleButton.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/bubbleButton)
 > 右下角小气泡
 
 ## 示例

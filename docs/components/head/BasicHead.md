@@ -1,5 +1,5 @@
 # BasicHeader
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/basicHead.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/basicHead)
 ::: tip 提示
 不推荐使用该组件，建议使用 **`openWindowWithTitle`** 方法
 :::

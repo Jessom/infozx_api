@@ -1,8 +1,11 @@
 # PageSlideBar
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/first.html)
 
 ::: tip 提示
-请配合[PageSlideHome](./PageSlideHome.html)组件使用
+请配合[PageSlideHome](./PageSlideHome)组件使用
+:::
+
+::: warning 警告
+因为是`单页面`写的，所有没有demo了
 :::
 
 ## 示例
@@ -23,20 +26,20 @@ export default {
 	data() {
 		return {
 			pagehome: {
-				active: 'first.html',
+				active: 'first',
 				list: [{
-					id: 'first.html',
-					url: 'first.html',
+					id: 'first',
+					url: 'first',
 					title: '未处理',
 					extras: {}
 				}, {
-					id: 'second.html',
-					url: 'second.html',
+					id: 'second',
+					url: 'second',
 					title: '已通过',
 					extras: {}
 				}, {
-					id: 'third.html',
-					url: 'third.html',
+					id: 'third',
+					url: 'third',
 					title: '已退回',
 					extras: {}
 				}]

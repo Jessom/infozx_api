@@ -1,5 +1,5 @@
 # BlockCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/blockCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/blockCell)
 >块状cell
 
 ## 示例

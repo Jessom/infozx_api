@@ -1,5 +1,5 @@
 # SideItem
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/sideItem.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/sideItem)
 > 侧滑面板内容
 
 ## 示例
@@ -78,7 +78,7 @@ export default {
 |参数名|类型|默认值|描述|
 |:---:|:---:|:---:|:---:|
 |options|Object|-|配置参数, [查看options详情](#options)|
-|btns|Object|-|按钮组，[BasicButton组件](../button/BasicButton.html)|
+|btns|Object|-|按钮组，[BasicButton组件](../button/BasicButton)|
 
 ### options
 |参数名|类型|默认值|描述|
@@ -98,4 +98,4 @@ export default {
 |事件|参数|说明|
 |:---:|:---:|:---:|
 |onSide|{title}|渲染数据被点击事件|
-|onBasic|{title, [icon]}|按钮点击事件，[BasicButton组件](../button/BasicButton.html)|
+|onBasic|{title, [icon]}|按钮点击事件，[BasicButton组件](../button/BasicButton)|

@@ -1,5 +1,5 @@
 # Pie
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/pie.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/pie)
 
 ```bash
 cnpm install v-charts echarts -save

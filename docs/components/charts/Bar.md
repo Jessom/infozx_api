@@ -1,5 +1,5 @@
 # Bar
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/bar.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/bar)
 ``` bash
 cnpm install v-charts echarts -save
 ```

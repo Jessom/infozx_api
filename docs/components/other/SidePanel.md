@@ -1,5 +1,5 @@
 # SidePanel
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/sidePanel.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/sidePanel)
 > 侧滑面板
 
 ## 示例

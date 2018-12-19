@@ -1,5 +1,5 @@
 # NoticeCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/noticeCell.html)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/noticeCell)
 > 右滑删除
 
 ## 示例
