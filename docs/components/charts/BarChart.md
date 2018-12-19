@@ -1,5 +1,5 @@
 # BarChart
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/bar)
+[Demo](http://watasi.gitee.io/infozx_api/dist/#/barChart)
 ```bash
 cnpm install --save echarts vue-echarts-v3
 ```
