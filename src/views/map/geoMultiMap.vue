@@ -44,7 +44,7 @@ export default {
 }
 </script>
 
-<style lang='scss'>
+<style lang='scss' scoped>
 .map-wrap {
 	height: 63.14vh;
 }

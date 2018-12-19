@@ -31,7 +31,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .container { padding: 0 10px; background-color: #fff; }
 .gauge { width: 33.33%; padding: 0 5px; }
 </style>

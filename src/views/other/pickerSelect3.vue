@@ -120,7 +120,7 @@ export default {
 }
 </script>
 
-<style lang='scss'>
+<style lang='scss' scoped>
 .active {
 	display: inline-block;
 	padding: 3px 7px;
