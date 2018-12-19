@@ -4,6 +4,9 @@
 ::: tip 裁切组件
 该组件依赖[cropperjs](https://github.com/fengyuanchen/cropperjs)
 :::
+```bash
+npm install cropperjs --save
+```
 
 ## 示例
 ```vue{68}

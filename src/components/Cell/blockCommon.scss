@@ -1,0 +1,83 @@
+@import 'static/common/scss/_variable.scss';
+$iconBlockH: 40px;
+.z-block-cell {
+  position: relative;
+  z-index: 2;
+	.mui-grid-view.mui-grid-9 {
+		background-color: #fff;
+    border: 0;
+    padding: 10px 0;
+    .mui-table-view-cell {
+      border: 0;
+      padding: 0;
+      .mui-media-body {
+        font-size: 1.2rem;
+        color: rgba(0,0,0,.7);
+        height: auto;
+        line-height: inherit;
+        margin-top: 2px;
+      }
+      .z-min {
+        font-size: 2.4rem;
+      }
+      &>a:not(.mui-btn) {
+        padding: 5px 0;
+      }
+      &.mui-active {
+        background-color: transparent;
+      }
+
+      .icon-block{
+        .z-min {
+          width: $iconBlockH;
+          height: $iconBlockH;
+          text-align: center;
+          line-height: $iconBlockH;
+          display: inline-block;
+          border-radius: 4px;
+          color: #fff;
+        }
+      }
+      .z-b-c-radius {
+        .z-min {
+          border-radius: 50%;
+        }
+      }
+    }
+
+    &.theme {
+      background-color: $baseColor;
+      .mui-table-view-cell {
+        .mui-media-body {
+          color: rgba(255,255,255,.8);
+        }
+        .z-min {
+          color: rgba(255,255,255,.9);
+        }
+      }
+    }
+	}
+	.nothing-wrap {
+    height: 60px;
+    line-height: 60px;
+    color: #999;
+  }
+  .col-xs-2-5 {
+    width: 20%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-4 {
+    width: 33.33333333%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-2 {
+    width: 16.66666667%;
+  }
+}

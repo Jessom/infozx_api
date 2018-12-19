@@ -1,0 +1,40 @@
+
+// $baseColor: #53e3a6;
+$baseColor: rgb(0, 96, 173) !default;
+$baseColorDark10: darken($baseColor, 10) !default;
+$baseColorDark15: darken($baseColor, 15) !default;
+$baseColorDark20: darken($baseColor, 20) !default;
+$baseColorLight10: lighten($baseColor, 10) !default;
+$baseColorLight15: lighten($baseColor, 15) !default;
+$baseColorLight20: lighten($baseColor, 20) !default;
+$redColor: red !default;
+$orangeColor: #FAB410 !default;
+$blueColor: #1B81D3 !default;
+$skyBlueColor: #32B4FF !default;
+$greenColor: #19A875 !default;
+$lightRedColor: #FC6C6C !default;
+$lightPurpleColor: #A580F2 !default;
+$lightGreyColor: #878787 !default;
+$backGreyColor: #c8c7cc !default;
+$blackColor: #333 !default;
+$whiteColor: #fff !default;
+$greyDarkColor: #95A5A6 !default;
+$lightBlueColor: #1dbce0 !default;
+$greyLightColor: #bdc3c7 !default;
+$greyColor: #999 !default;
+
+
+// default font-size variable
+$size-12: 1.2rem !default;
+$size-14: 1.4rem !default;
+$size-16: 1.6rem !default;
+$size-18: 1.8rem !default;
+$size-20: 2.0rem !default;
+$size-22: 2.2rem !default;
+$size-24: 2.4rem !default;
+$size-26: 2.6rem !default;
+$size-28: 2.8rem !default;
+$size-30: 3.0rem !default;
+$size-32: 3.2rem !default;
+$size-34: 3.4rem !default;
+$size-36: 3.6rem !default;

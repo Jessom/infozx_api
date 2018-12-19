@@ -1,0 +1,16 @@
+@import 'static/common/scss/_variable.scss';
+$height: 40px;
+.z-page-slide-home, .z-page-slide-bar{
+  .mui-segmented-control {
+    border: 0;
+    .mui-control-item {
+      border-left: 0;
+      color: #666;
+      &.mui-active {
+        background-color: transparent;
+        color: $baseColor;
+        border-bottom: 2px solid $baseColor;
+      }
+    }
+  }
+}

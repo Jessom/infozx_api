@@ -1,0 +1,74 @@
+@import 'static/common/scss/_variable.scss';
+.z-picker-head {
+  padding: 6px 15px;
+  .mui-btn {
+    font-size: 1.2rem;
+  }
+  .title {
+    display: inline-block;
+    max-width: 60%;
+  }
+}
+
+.z-slider-wrap {
+  background-color: #f3f3f3;
+  .mui-scroll-wrapper {
+    margin: 0;
+    border-radius: 0;
+    font-size: 1.3rem;
+  }
+  .mui-segmented-control.mui-scroll-wrapper .mui-control-item {
+    padding: 0 10px;
+  }
+  .men-wrap {
+    float: left;
+    width: calc(100% - 50px);
+  }
+
+  .includes-wrap {
+    float: right;
+    width: 50px;
+    line-height: 38px;
+    height: 38px;
+    text-align: center;
+    color: #999;
+		&.on {
+      background-color: lighten($baseColor, 43);
+      color: $baseColor;
+    }
+  }
+}
+
+.z-picker-content {
+  .mui-table-view {
+    background-color: #fff;
+  }
+  .z-select-wrap .tip {
+    padding: 5px 15px;
+    background: #e3e3e3;
+    color: #999;
+  }
+  .z-select-wrap {
+    .text-wrap {
+      display: inline-block;
+      float: left;
+      width: 42px;
+      line-height: 42px;
+      height: 42px;
+      background-color: $baseColor;
+      text-align: center;
+      font-size: 2rem;
+      color: #fff;
+      margin-right: 10px;
+    }
+  }
+
+  .grey {
+    background-color: #f3f3f3;
+    color: #696969;
+  }
+
+  &.mui-scroll-wrapper {
+    top: 74px;
+  }
+}

@@ -13,7 +13,16 @@
     "deploy": "bash deploy.sh"
   },
   "dependencies": {
+    "cropperjs": "^1.4.3",
+    "echarts": "^4.2.0-rc.2",
+    "exif-js": "^2.3.0",
+    "md5": "^2.2.1",
+    "qrcode": "^1.3.2",
+    "v-charts": "^1.19.0",
     "vue": "^2.5.2",
+    "vue-amap": "^0.5.8",
+    "vue-echarts-v3": "^1.0.19",
+    "vue-quill-editor": "^3.0.6",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

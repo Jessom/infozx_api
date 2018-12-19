@@ -1,0 +1,148 @@
+@import './_variable.scss';
+header.mui-bar,
+.mui-navbar .mui-navbar-inner {
+    box-shadow: none;
+    background-color: $baseColor;
+    .h1,
+    a,
+    .mui-title,
+    button {
+        color: $whiteColor;
+    }
+}
+
+nav.mui-bar {
+    box-shadow: none;
+}
+
+.mui-view .mui-navbar {
+    .mui-navbar-inner {
+        background-color: $baseColor;
+        h1,
+        a,
+        button {
+            color: $whiteColor;
+        }
+    }
+}
+
+.mui-poppicker-btn-ok {
+    background-color: $baseColor;
+    border: 1px solid $baseColor;
+}
+
+.mui-dtpicker .mui-poppocker,
+.mui-picker {
+    background-color: $whiteColor;
+}
+
+.mui-dtpicker,
+.mui-poppicker {
+    background-color: $whiteColor;
+}
+
+.mui-dtpicker-title h5 {
+    background-color: $whiteColor;
+}
+
+.mui-dtpicker-header {
+//  button {
+//      color: $whiteColor;
+//      background-color: $greyDarkColor;
+//  }
+    .mui-btn-blue {
+        background-color: $baseColor;
+        border: 1px solid $baseColor;
+    }
+}
+
+.mui-checkbox,
+.mui-radio {
+    input[type=checkbox] {
+        &::before {
+            font-size: $size-22;
+        }
+        &:checked::before {
+            color: $baseColor;
+        }
+    }
+}
+
+.mui-navigate-right,
+.mui-push-left,
+.mui-push-right {
+    &::after {
+        @extend .size16;
+    }
+}
+
+.mui-table-view-radio .mui-table-view-cell .mui-navigate-right {
+    &::after {
+        color: $baseColor
+    }
+}
+
+.mui-table-view-chevron .mui-table-view-cell {
+    padding-right: 15px;
+    &>a &:not(.mui-btn) {
+        margin-right: -15px
+    }
+}
+
+.mui-content {
+    &>.mui-card {
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.mui-card {
+    margin: 0;
+    box-shadow: none
+}
+
+.mui-popup-button {
+    color: $baseColor
+}
+
+.mui-input-group,
+.mui-table-view {
+    &::after,
+    &::before {
+        background-color: transparent
+    }
+    .mui-input-row,
+    .mui-table-view-cell {
+        &:last-child {
+            &::after {
+                background-color: transparent
+            }
+        }
+    }
+}
+
+.mui-table-view-cell {
+    &.mui-active {
+        background-color: inherit
+    }
+}
+
+.mui-checkbox,
+.mui-radio input[type=checkbox] {
+    &:checked::before {
+        color: $baseColor
+    }
+}
+
+.mui-checkbox,
+input[type=checkbox] {
+    &::before {
+        font-size: 2.2rem
+    }
+}
+
+.mui-switch.mui-active {
+    border-color: $baseColor !important;
+    background-color: $baseColor !important;
+}
