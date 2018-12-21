@@ -167,7 +167,7 @@ export default {
                 {
                   id: 100003,
                   title: "张测测",
-                  image: "http://wx.baojiashi.cn/static/images/avatar.jpg ",
+                  image: "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLlhdCLUxemEvUWxKqQSEx5SDBvUzbgk6Jjk4JvxKXvjicRQlzUQmfsUYLGzYwKSNMXSPKEMuib3RwQ/132 ",
                   desc: "人事管理员"
                 }
               ]
@@ -184,7 +184,7 @@ export default {
             {
               id: 100003,
               title: "张测测",
-              image: "http://wx.baojiashi.cn/static/images/avatar.jpg ",
+              image: "http://61.155.203.44:60119/UpLoads/QiGuan/qiguan/100021/d170983e40a300455d8c740b17898277.jpg?scale=0",
               desc: "人事管理员"
             }
           ]
