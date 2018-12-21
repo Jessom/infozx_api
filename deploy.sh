@@ -27,12 +27,14 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@gitee.com:watasi/infozx_api.git master
+git push -f git@gitee.com:watasi/infozx_api.git master
+
+git push -f git@github.com:Jessom/infozx_api.git master
 
 # 提交码云
-git push -u origin master
+# git push -u origin master
 
 # 提交github
-git push -u github master
+# git push -u github master
 
 cd -

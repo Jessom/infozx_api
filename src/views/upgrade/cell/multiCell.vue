@@ -209,3 +209,9 @@ export default {
 	}
 }
 </script>
+
+<style>
+.mui-backdrop {
+	background-color: rgba(0,0,0,.3) !important;
+}
+</style>
