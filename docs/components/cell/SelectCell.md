@@ -1,6 +1,5 @@
-# SelectCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/selectCell)
-> 多选
+# SelectCell(多选)
+[Demo](https://watasi.cn/infozx_api/dist/#/selectCell)
 
 ## 示例
 ``` vue{10}

@@ -1,5 +1,4 @@
-# PreviewImg
-> 图片预览
+# PreviewImg(图片预览)
 
 ```html
 <script src='../static/common/mui/js/mui.zoom.js'></script>

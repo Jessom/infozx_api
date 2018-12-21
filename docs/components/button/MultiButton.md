@@ -1,6 +1,5 @@
-# MultiButton
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/multiButton)
-> 多功能button组件
+# MultiButton(多功能button组件)
+[Demo](https://watasi.cn/infozx_api/dist/#/multiButton)
 
 ## 示例
 ``` vue{8}

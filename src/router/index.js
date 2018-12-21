@@ -294,15 +294,11 @@ export default new Router({
       name: 'weekCalendar',
       component: resolve => require(['@/views/components/timeAxis/weekCalendar.vue'], resolve)
     },
-
-    /**
-     * upgrade
-     */
-    // cell
+    // hentai
     {
-      path: '/multiCell',
-      name: 'multiCell',
-      component: resolve => require(['@/views/upgrade/cell/multiCell.vue'], resolve)
+      path: '/hentai',
+      name: 'hentai',
+      component: resolve => require(['@/views/components/hentai/hentai.vue'], resolve)
     }
   ]
 })

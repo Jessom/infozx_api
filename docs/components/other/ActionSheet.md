@@ -1,6 +1,5 @@
-# ActionSheet
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/actionSheet)
-> 操作表
+# ActionSheet(操作表)
+[Demo](https://watasi.cn/infozx_api/dist/#/actionSheet)
 
 ## 示例
 ```vue{11}

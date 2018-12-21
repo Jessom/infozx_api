@@ -1,6 +1,5 @@
-# TextCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/textCell)
-> 纯文本cell
+# TextCell(纯文本cell)
+[Demo](https://watasi.cn/infozx_api/dist/#/textCell)
 
 ## 示例
 ``` vue{16}

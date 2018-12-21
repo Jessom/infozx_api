@@ -1,6 +1,5 @@
-# QuillEditor
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/quillEditor)
-> 富文本编辑器
+# QuillEditor(富文本编辑器)
+[Demo](https://watasi.cn/infozx_api/dist/#/quillEditor)
 
 ```bash
 cnpm install vue-quill-editor --save

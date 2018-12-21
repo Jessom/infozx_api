@@ -1,5 +1,5 @@
-# Ring
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/ring)
+# Ring(环形图)
+[Demo](https://watasi.cn/infozx_api/dist/#/ring)
 
 ```bash
 cnpm install v-charts echarts -save

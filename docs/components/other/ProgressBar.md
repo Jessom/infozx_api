@@ -1,5 +1,4 @@
-# ProgressBar
-> 进度条
+# ProgressBar(进度条)
 
 ## 示例
 ```vue{8}

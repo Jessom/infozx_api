@@ -1,6 +1,5 @@
-# SelectSingle
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/selectSingle)
-> 单选
+# SelectSingle(单选)
+[Demo](https://watasi.cn/infozx_api/dist/#/selectSingle)
 
 ## 示例
 ``` vue{16,17}

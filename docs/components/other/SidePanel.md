@@ -1,6 +1,5 @@
-# SidePanel
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/sidePanel)
-> 侧滑面板
+# SidePanel(侧滑面板)
+[Demo](https://watasi.cn/infozx_api/dist/#/sidePanel)
 
 ## 示例
 ```vue{34}

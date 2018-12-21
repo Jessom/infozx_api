@@ -1,13 +1,15 @@
 <!-- 选择部门 -->
 <template>
 	<div class="z-branch-wrap">
+		<div class="z-alert">包含子部门，将不能进入下一级或上一级</div>
+
 		<div class="mui-table-view">
 			<div class="mui-table-view-cell">
 				<span>是否包含子部门</span>
 				<div
 					class="mui-switch mui-switch-mini"
 					:class='{"mui-active": include}'>
-					<div class="mui-switch-handle" @tap='include = !include'></div>
+					<div class="mui-switch-handle" @tap='includeEvent'></div>
 				</div>
 			</div>
 		</div>
@@ -35,6 +37,7 @@ export default {
 			actived: [],				// 保存选中的部门
 		}
 	},
+
 	methods: {
 		/**
 		 * 初始化数据
@@ -53,8 +56,13 @@ export default {
 			// 选择部门后，不能选择下一部门
 			if(this.actived.length > 0) return
 
+			// 包含子部门，不能进入下一部门
+			if(this.include) return
+
 			// 添加历史记录
 			this.history.push(this.branch)
+			// 滚动区域返回顶部
+			mui('.z-hentai-sc').scroll().scrollTo(0,0,0)
 			this.init(item.children)
 		},
 
@@ -67,11 +75,23 @@ export default {
 
 			if(isChecked) {
 				// 保存选中部门
-				this.actived.push(item)
+				this.actived.push({ ...item, include: this.include })
 			} else {
 				// 清除当前部门
 				this.actived.splice(this.actived.findIndex(c => c.id == item.id), 1)
 			}
+		},
+
+		/**
+		 * 包含子部门switch
+		 */
+		includeEvent() {
+			this.include = !this.include
+
+			this.actived = this.actived.map(c => {
+				c['include'] = this.include
+				return c
+			})
 		},
 
 		/**

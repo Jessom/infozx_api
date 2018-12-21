@@ -1,6 +1,5 @@
-# Draw
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/draw)
-> 移动端签名
+# Draw(移动端签名)
+[Demo](https://watasi.cn/infozx_api/dist/#/draw)
 
 ## 示例
 ```vue{21}

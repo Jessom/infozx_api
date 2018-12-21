@@ -1,6 +1,5 @@
-# SideItem
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/sideItem)
-> 侧滑面板内容
+# SideItem(侧滑面板内容)
+[Demo](https://watasi.cn/infozx_api/dist/#/sideItem)
 
 ## 示例
 ```vue{20}

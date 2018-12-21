@@ -1,6 +1,5 @@
-# Calendar
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/calendar)
-> 日历
+# Calendar(日历)
+[Demo](https://watasi.cn/infozx_api/dist/#/calendar)
 
 ::: tip 文档
 [点我查看](https://github.com/jinzhe/vue-calendar)文档

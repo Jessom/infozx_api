@@ -1,6 +1,5 @@
-# NoticeCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/noticeCell)
-> 右滑删除
+# NoticeCell(右滑删除)
+[Demo](https://watasi.cn/infozx_api/dist/#/noticeCell)
 
 ## 示例
 ``` vue{11}

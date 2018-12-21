@@ -1,6 +1,5 @@
-# BasicButton
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/basicButton)
-> 商城按钮组
+# BasicButton(商城按钮组)
+[Demo](https://watasi.cn/infozx_api/dist/#/basicButton)
 
 ## 示例
 ``` vue{23}

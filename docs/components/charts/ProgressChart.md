@@ -1,5 +1,5 @@
-# ProgressChart
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/progressChart) <br />
+# ProgressChart(环形进度条)
+[Demo](https://watasi.cn/infozx_api/dist/#/progressChart) <br />
 
 ::: warning 警告
 该组件不依赖`echarts`，而是依赖阿里的`f2js` <br />

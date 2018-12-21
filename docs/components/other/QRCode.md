@@ -1,6 +1,5 @@
-# QRCode
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/qrcode)
-> 生成二维码
+# QRCode(生成二维码)
+[Demo](https://watasi.cn/infozx_api/dist/#/qrcode)
 
 ```bash
 cnpm install qrcode --save

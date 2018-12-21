@@ -1,5 +1,5 @@
-# LineChart
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/lineChart)
+# LineChart(折线图)
+[Demo](https://watasi.cn/infozx_api/dist/#/lineChart)
 
 ```bash
 cnpm install --save echarts vue-echarts-v3

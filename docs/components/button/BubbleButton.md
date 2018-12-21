@@ -1,6 +1,5 @@
-# BubbleButton
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/bubbleButton)
-> 右下角小气泡
+# BubbleButton(右下角小气泡)
+[Demo](https://watasi.cn/infozx_api/dist/#/bubbleButton)
 
 ## 示例
 ``` vue{8}

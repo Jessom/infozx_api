@@ -1,5 +1,5 @@
-# GeoMultiMap
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/geoMultiMap) <br />
+# GeoMultiMap(定位 && 添加多点坐标)
+[Demo](https://watasi.cn/infozx_api/dist/#/geoMultiMap) <br />
 
 ```bash
 cnpm install --save vue-amap

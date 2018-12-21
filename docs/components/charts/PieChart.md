@@ -1,5 +1,5 @@
-# PieChart
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/pieChart)
+# PieChart(饼图)
+[Demo](https://watasi.cn/infozx_api/dist/#/pieChart)
 
 ```bash
 cnpm install --save echarts vue-echarts-v3

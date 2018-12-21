@@ -1,6 +1,5 @@
-# PickerSelect2
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/pickerSelect2)
-> 可以选择员工
+# PickerSelect2(可以选择员工)
+[Demo](https://watasi.cn/infozx_api/dist/#/pickerSelect2)
 
 ## 示例
 ```vue{11}

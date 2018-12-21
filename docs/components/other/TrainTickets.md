@@ -1,6 +1,5 @@
-# TrainTickets
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/trainTickets)
-> 火车票
+# TrainTickets(火车票)
+[Demo](https://watasi.cn/infozx_api/dist/#/trainTickets)
 
 ## 示例
 ```vue{8}

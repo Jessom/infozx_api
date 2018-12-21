@@ -1,6 +1,5 @@
-# AddImgButton
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/addImgButton)
-> 添加图片组件(没有裁切功能)
+# AddImgButton(添加图片组件)
+[Demo](https://watasi.cn/infozx_api/dist/#/addImgButton)
 
 ## 示例
 ``` vue{13}

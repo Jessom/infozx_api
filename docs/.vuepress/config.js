@@ -103,7 +103,12 @@ module.exports = {
             'other/QRCode', 'other/QuillEditor', 'other/SideItem', 'other/SidePanel',
             'other/Sort', 'other/TrainTickets'
           ]
-        }
+        },
+        {
+          title: 'hentai',
+          collapsable: true,
+          children: [ 'hentai/Main' ]
+        },
       ],
       '/utils/': [
         {

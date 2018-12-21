@@ -1,6 +1,5 @@
-# AddCutImgButton
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/addCutImgButton)
->带有裁切功能的图片选择组件
+# AddCutImgButton(带有裁切功能的图片选择组件)
+[Demo](https://watasi.cn/infozx_api/dist/#/addCutImgButton)
 
 ## 示例
 ``` vue{14}

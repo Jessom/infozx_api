@@ -1,5 +1,5 @@
-# BarChart
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/barChart)
+# BarChart(柱状图表)
+[Demo](https://watasi.cn/infozx_api/dist/#/barChart)
 ```bash
 cnpm install --save echarts vue-echarts-v3
 ```

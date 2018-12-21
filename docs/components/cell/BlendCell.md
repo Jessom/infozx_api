@@ -1,6 +1,5 @@
-# BlendCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/blendCell)
-> 图文混排cell
+# BlendCell(图文混排)
+[Demo](https://watasi.cn/infozx_api/dist/#/blendCell)
 
 ## 示例
 ```vue{16}

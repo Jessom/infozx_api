@@ -1,6 +1,5 @@
-# VerticalAxis
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/verticalAxis)
-> 时间轴
+# VerticalAxis(时间轴)
+[Demo](https://watasi.cn/infozx_api/dist/#/verticalAxis)
 
 ## 示例
 ```vue{8}

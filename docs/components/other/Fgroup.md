@@ -1,6 +1,5 @@
-# Fgroup
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/fgroup)
-> 通讯录组件
+# Fgroup(通讯录组件)
+[Demo](https://watasi.cn/infozx_api/dist/#/fgroup)
 
 ```html
 <link rel="stylesheet" href="../static/common/mui/css/mui.indexedlist.css">

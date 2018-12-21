@@ -1,5 +1,5 @@
 # DoubleHit
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/doubleHit)
+[Demo](https://watasi.cn/infozx_api/dist/#/doubleHit)
 
 ::: danger 严重警告
 这是一个比较`ド へんたい`的东西；因为内部使用了较多的`递归`，所以你应该懂了

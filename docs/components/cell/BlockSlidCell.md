@@ -1,6 +1,5 @@
-# BlockSlidCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/blockSlidCell)
-> 块状可左右滑动cell
+# BlockSlidCell(块状可左右滑动)
+[Demo](https://watasi.cn/infozx_api/dist/#/blockSlidCell)
 
 ## 示例
 ``` vue{12}

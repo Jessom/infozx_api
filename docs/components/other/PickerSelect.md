@@ -1,6 +1,5 @@
-# PickerSelect
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/pickerSelect)
-> 选部门
+# PickerSelect(选部门)
+[Demo](https://watasi.cn/infozx_api/dist/#/pickerSelect)
 
 ## 示例
 ```vue{11}

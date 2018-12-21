@@ -1,6 +1,5 @@
-# Sort
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/sort)
-> 排序组件
+# Sort(排序组件)
+[Demo](https://watasi.cn/infozx_api/dist/#/sort)
 
 ## 示例
 ```vue{20}

@@ -1,5 +1,5 @@
-# MultiAddrMap
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/multiAddrMap) <br />
+# MultiAddrMap(添加多点坐标)
+[Demo](https://watasi.cn/infozx_api/dist/#/multiAddrMap) <br />
 
 ```bash
 cnpm install --save vue-amap

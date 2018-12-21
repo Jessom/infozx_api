@@ -1,5 +1,5 @@
-# GeolocationMap
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/gelocationMap) <br />
+# GeolocationMap(定位)
+[Demo](https://watasi.cn/infozx_api/dist/#/gelocationMap) <br />
 
 ```bash
 cnpm install --save vue-amap

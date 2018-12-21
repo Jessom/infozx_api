@@ -1,6 +1,5 @@
-# BadgeCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/badgeCell)
-> 徽章
+# BadgeCell(徽章)
+[Demo](https://watasi.cn/infozx_api/dist/#/badgeCell)
 
 ## 示例
 ``` vue{17}

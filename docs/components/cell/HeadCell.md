@@ -1,6 +1,5 @@
-# HeadCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/headCell)
-> cell列表的头部
+# HeadCell(cell列表的头部)
+[Demo](https://watasi.cn/infozx_api/dist/#/headCell)
 
 ## 示例
 ``` vue{10}

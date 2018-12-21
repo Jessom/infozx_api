@@ -1,6 +1,5 @@
-# PickerSelect3
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/pickerSelect3)
-> 可以选择员工，部门，自己，全部
+# PickerSelect3(可以选择员工，部门，自己，全部)
+[Demo](https://watasi.cn/infozx_api/dist/#/pickerSelect3)
 
 ## 示例
 ```vue{11}

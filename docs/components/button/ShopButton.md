@@ -1,6 +1,5 @@
-# ShopButton
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/shopButton)
-> 商城按钮组
+# ShopButton(商城按钮组)
+[Demo](https://watasi.cn/infozx_api/dist/#/shopButton)
 
 ## 示例
 ``` vue{8}

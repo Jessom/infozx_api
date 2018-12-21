@@ -11,14 +11,15 @@
 				@tap='$emit("close")'></button>
 		</div>
 
-		<!-- body -->
-		<div class="mui-scroll-wrapper z-hentai-scroll" v-show='!$slots.unscroll'>
+		<!-- 初始化滚动区域 -->
+		<div class="mui-scroll-wrapper z-hentai-scroll z-hentai-sc" v-show='select != 4'>
 			<div class="mui-scroll">
 				<slot></slot>
 			</div>
 		</div>
 
-		<div class="unscroll" v-show='$slots.unscroll'>
+		<!-- 不带有滚动区域 -->
+		<div class="unscroll" v-show='select == 4'>
 			<slot name='unscroll'></slot>
 		</div>
 
@@ -32,7 +33,13 @@
 </template>
 
 <script>
+import { bus } from '@/common/js/bus'
 export default {
+	data() {
+		return {
+			select: 0
+		}
+	},
 	props: {
 		title: {
 			type: String,
@@ -41,7 +48,9 @@ export default {
 	},
 	mounted() {
 		mui.init()
-		mui('.z-hentai-scroll').scroll();
+		mui('.z-hentai-scroll').scroll()
+
+		bus.$on('select', select => this.select = select)
 	}
 }
 </script>
@@ -71,7 +80,7 @@ export default {
 	}
 	.mui-scroll-wrapper { margin: 0; position: relative; }
 
-	.button-wrap { padding: 0 15px; }
+	// .button-wrap { padding: 0 15px; }
 
 	.mui-table-view { background-color: #fff; }
 
@@ -94,6 +103,10 @@ export default {
 		&::before {
 			content: "\e583"; position: absolute; right: 15px; font-size: 14px; color: #c8c7cc; top: 10px;
 		}
-	}	
+	}
+
+	.z-alert {
+		width: calc(100% - 30px); padding: 3px 16px; border-radius: 4px; background-color: #fdf6ec; color: #e6a23c; overflow: hidden; font-size: 10px; margin: 7px 15px;
+	}
 }
 </style>

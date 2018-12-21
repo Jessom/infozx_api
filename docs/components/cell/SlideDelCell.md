@@ -1,6 +1,5 @@
-# SlideDelCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/slideDelCell)
-> 右滑删除
+# SlideDelCell(右滑删除)
+[Demo](https://watasi.cn/infozx_api/dist/#/slideDelCell)
 
 ## 示例
 ``` vue{25}

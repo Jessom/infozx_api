@@ -6,11 +6,18 @@
 			<div class="mui-scroll-wrapper z-hentai-scroll">
 				<div class="mui-scroll">
 					<ul class="mui-table-view">
-						<li class="mui-table-view-cell">
-							<a class="mui-navigate-right">安得装饰</a>
-						</li>
-						<li class="mui-table-view-cell" v-for='item in 15' :key='item'>
-							<a class="mui-navigate-right">中系科技</a>
+						<li
+							class="mui-table-view-cell"
+							v-for='item in branch'
+							:key='item.id'>
+							<a
+								:class="{
+									'mui-navigate-right': (item.staff && 
+																				item.staff.length) ||
+																				(item.children &&
+																				item.children.length)
+								}"
+								@tap='cellclick(item)'>{{ item.title }}</a>
 						</li>
 					</ul>
 				</div>
@@ -21,26 +28,30 @@
 		<div class="mui-pull-left z-staff-right">
 			<div class="mui-scroll-wrapper z-hentai-scroll">
 				<div class="mui-scroll">
+					<div class="z-alert">选择子成员，将不能进入下一级或上一级</div>
 					<div class="mui-table-view">
 						<div class="mui-table-view-cell">
-							<span>是否选择子成员</span>
+							<span>选择子成员</span>
 							<div
 								class="mui-switch mui-switch-mini"
 								:class='{"mui-active": include}'>
-								<div class="mui-switch-handle" @tap='include = !include'></div>
+								<div class="mui-switch-handle" @tap='includeEvent'></div>
 							</div>
 						</div>
 					</div>
 					<div class="mui-input-group">
-						<div class="mui-input-row mui-checkbox mui-left">
+						<div
+							class="mui-input-row mui-checkbox mui-left"
+							v-for='(item, ind) in staff'
+							:key='ind'>
 							<label>
-								<img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1390546864,3017401199&fm=15&gp=0.jpg" class="avatar">
+								<img :src="item.image" class="avatar">
 								<div class="desc-body">
-									涼風青葉
-									<p class="mui-ellipsis">凉风青叶身材娇小，双马尾发型又有着娃娃脸，经常被误认成小孩子。</p>
+									{{ item.title }}
+									<p class="mui-ellipsis">{{ item.desc }}</p>
 								</div>
 							</label>
-							<input name="checkbox" value="Item 1" type="checkbox" >
+							<input name="checkbox" value="Item 1" type="checkbox"  @tap='inputclick($event, item)' >
 						</div>
 					</div>
 				</div>
@@ -54,10 +65,110 @@ export default {
 	data() {
 		return {
 			include: false,			// 是否包含子成员
+			staff: [],					// 渲染的部门成员
+			branch: [],					// 渲染的部门数据
+			history: {					// 保存选中的历史记录
+				staff: [], branch: []
+			},
+			actived: [],				// 选中的成员
+			clicks: [],					// 保存点击的部门信息
 		}
 	},
-	mounted() {
-		mui('.z-hentai-scroll').scroll();
+
+	methods: {
+		/**
+		 * 初始化数据
+		 */
+		init(branch, staff) {
+			this.branch = branch
+			if(staff) {
+				this.staff = staff
+			} else {
+				this.staff = []
+			}
+		},
+
+		/**
+		 * 点击部门选项
+		 */
+		cellclick(item) {
+			// 没有成员 && 没有子部门
+			if(!(item.staff && item.staff.length) && 
+				!(item.children && item.children.length)) return
+
+			// 选择成员后，不能进入下级
+			if(this.actived.length > 0) return
+
+			// 选择子成员
+			if(this.include) return
+
+			// 保存历史记录
+			this.history.branch.push(this.branch)
+			this.history.staff.push(this.staff)
+			this.clicks.push(item)
+			this.init(item.children, item.staff)
+		},
+
+		/**
+		 * 选择子部门成员
+		 */
+		includeEvent() {
+			if(this.actived.length > 0) return
+
+			this.include = this.staff.length ? !this.include : false
+			if(this.include) {
+				const childStaff = this.deepStaff(this.clicks[this.clicks.length-1])
+				this.staff = [ ...this.staff, ...childStaff ]
+			} else {
+				this.staff = this.clicks[this.clicks.length-1].staff
+			}
+		},
+
+		/**
+		 * 选择成员
+		 */
+		inputclick(e, item) {
+			// 是否选中当前成员
+			const isChecked = !e.currentTarget.checked
+
+			if(isChecked) {
+				// 保存选中成员
+				this.actived.push(item)
+			} else {
+				// 删除当前成员
+				this.actived.splice(this.actived.findIndex(c => c.id == item.id), 1)
+			}
+		},
+
+		/**
+		 * 清除历史记录
+		 */
+		clearHistory() {
+			this.history = { branch: [], staff: [] }
+		},
+
+		/**
+		 * 递归获取子部门成员
+		 */
+		deepStaff(obj) {
+			let result = []
+			run(obj.children)
+
+			function run(arr) {
+				for(let i=0; i<arr.length; i++) {
+					const item = arr[i]
+					if(!(item.staff && item.staff.length) && 
+						 !(item.children && item.children.length)) {
+						break;
+					} else {
+						result = [ ...result, ...item.staff ]
+					}
+					run(item.children)
+				}
+			}
+
+			return result
+		}
 	}
 }
 </script>
@@ -88,7 +199,10 @@ $avatar: 42px;
 		.avatar { width: $avatar; height: $avatar; border-radius: 50%; float: left; margin-right: 8px; }
 		.desc-body { overflow: hidden; height: $avatar; padding: 5px 0; }
 		p.mui-ellipsis { margin-bottom: 0; font-size: 10px; margin-top: 5px; }
-		.mui-checkbox input[type=checkbox]:before { top: 20px; }
+		.mui-checkbox input[type=checkbox]:before { top: 20px; left: 15px; }
+		.mui-checkbox input[type=checkbox] {
+			left: 0; top: 0; height: 100%; width: 100%; z-index: 2;
+		}
 	}
 }
 </style>

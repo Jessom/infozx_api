@@ -1,6 +1,5 @@
-# CenterCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/centerCell)
-> 居中cell
+# CenterCell(居中)
+[Demo](https://watasi.cn/infozx_api/dist/#/centerCell)
 
 ## 示例
 ``` vue{10}

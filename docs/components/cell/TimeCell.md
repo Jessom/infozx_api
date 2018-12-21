@@ -1,6 +1,5 @@
-# TimeCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/timeCell)
-> 时间cell
+# TimeCell(时间cell)
+[Demo](https://watasi.cn/infozx_api/dist/#/timeCell)
 
 ## 示例
 ``` vue{10}

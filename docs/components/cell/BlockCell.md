@@ -1,6 +1,5 @@
-# BlockCell
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/blockCell)
->块状cell
+# BlockCell(块状)
+[Demo](https://watasi.cn/infozx_api/dist/#/blockCell)
 
 ## 示例
 

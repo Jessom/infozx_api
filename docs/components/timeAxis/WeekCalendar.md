@@ -1,6 +1,5 @@
-# WeekCalendar
-[Demo](http://watasi.gitee.io/infozx_api/dist/#/weekCalendar)
-> 周日历
+# WeekCalendar(周日历)
+[Demo](https://watasi.cn/infozx_api/dist/#/weekCalendar)
 
 ```bash
 + <link rel="stylesheet" href="../static/common/js/swiper/swiper.css">
