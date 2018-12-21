@@ -6,7 +6,7 @@ module.exports = {
   base: '/infozx_api/api/',
   themeConfig: { //主题配置
     // 假定 GitHub。也可以是一个完整的 GitLab 网址
-    repo: 'https://gitee.com/watasi/infozx_api',
+    repo: 'https://github.com/Jessom/infozx_api',
     // 如果你的文档不在仓库的根部
     docsDir: 'docs',
     // 可选，默认为 master
@@ -20,10 +20,10 @@ module.exports = {
       { text: 'static', link: '/static/' },
       { text: 'js篇', link: '/js/' },
       { text: 'css篇', link: '/css/' },
-      { text: 'gitee',        // 这里是下拉列表展现形式。
+      { text: 'github',        // 这里是下拉列表展现形式。
         items: [
-          { text: '仓库', link: 'https://gitee.com/watasi/infozx_api' },
-          { text: 'ISSUS', link: 'https://gitee.com/watasi/infozx_api/issues' },
+          { text: '仓库', link: 'https://github.com/Jessom/infozx_api' },
+          { text: 'ISSUS', link: 'https://github.com/Jessom/infozx_api/issues' },
         ]
       }
     ],

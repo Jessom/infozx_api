@@ -3,6 +3,9 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 更新仓库
+git pull
+
 # 编译文档
 vuepress build docs
 # npm run docs:build
