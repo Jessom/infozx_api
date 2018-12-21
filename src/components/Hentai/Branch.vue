@@ -95,10 +95,16 @@ export default {
 		},
 
 		/**
-		 * 清除历史记录
+		 * 清除记录
 		 */
 		clearHistory() {
+			mui('.z-branch-wrap input[type="checkbox"]').each((ind, item) => {
+				item.checked = false
+			})
+			this.include = false
+			this.branch = []
 			this.history = []
+			this.actived = []
 		}
 	}
 }

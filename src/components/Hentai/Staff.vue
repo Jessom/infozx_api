@@ -144,6 +144,11 @@ export default {
 		 * 清除历史记录
 		 */
 		clearHistory() {
+			this.include = false
+			this.staff = []
+			this.branch = []
+			this.actived = []
+			this.clicks = []
 			this.history = { branch: [], staff: [] }
 		},
 

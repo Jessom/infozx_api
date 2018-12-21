@@ -7,6 +7,8 @@
 			@success='success' />
 
 		<button @tap="test">测试</button>
+
+    <p class="alert">请打开console面板，查看结果</p>
 	</div>
 </template>
 
@@ -229,5 +231,14 @@ export default {
 <style>
 .mui-backdrop {
 	background-color: rgba(0,0,0,.3) !important;
+}
+.alert {
+  width: calc(100% - 30px);
+  padding: 3px 16px;
+  border-radius: 4px;
+  background-color: #fdf6ec;
+  color: #e6a23c;
+  overflow: hidden;
+  margin: 7px 15px;
 }
 </style>
