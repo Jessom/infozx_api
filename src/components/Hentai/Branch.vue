@@ -55,7 +55,7 @@ export default {
 
 			// 添加历史记录
 			this.history.push(this.branch)
-			this.init(item.children)
+			this.init(item.children) 
 		},
 
 		/**
