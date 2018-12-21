@@ -65,6 +65,9 @@ list中的项，可以随意添加
 |:---:|:---:|:---:|:---:|
 |title|String|-|文本|
 |icon|String|-|图标|
+|position|Boolean|false|图标显示位置，`true`左边显示，`false`上边显示|
+|background|String|-|按钮背景色，可传入`red`、`#f60`、`rgb(0,5,2)`,、`rgba(255,255,255,.3)`|
+|color|Boolean|false|按钮文本颜色，`true`为白色，`false`为灰色|
 
 ## events
 |事件|参数|说明|

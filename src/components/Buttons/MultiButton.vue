@@ -7,7 +7,15 @@
 					<a href='#multi-more' class="iconfont icon-more more-btn"></a>
 					<!-- <span class="title">{{item.title}}</span> -->
 				</div>
-				<div class="horizontal-cell line" v-for='(item, ind) in list' :key='ind' @tap='onMulti($event, item)'>
+				<div
+					class="horizontal-cell line"
+					:class='[
+						item.position?"left":"",
+						item.color ? "white":""
+					]'
+					v-for='(item, ind) in list' :key='ind'
+					@tap='onMulti($event, item)'
+					:style='{"background-color": item.background}'>
 					<i class="iconfont" :class='item.icon'></i>
 					<span class="title">{{item.title}}</span>
 				</div>
@@ -103,6 +111,20 @@ $height: 50px;
 		}
 		/*两个以上*/
 		.multi {
+			.horizontal-cell.white {
+				.iconfont, .title { color: #fff; }
+			}
+			.horizontal-cell.left {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100%;
+				.iconfont { font-size: 1.6rem; top: 0; }
+				.title { margin-left: 5px; font-size: 1.4rem; }
+				/*.iconfont,.title {
+					display: inline-block;
+				}*/
+			}
 			.horizontal-cell:last-child{
 				@extend .gradient;
 				width: 40%;

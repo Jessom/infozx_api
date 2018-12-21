@@ -40,10 +40,13 @@ export default {
 				isFixed: false,
 				list: [{
 					title: '我的',
-					icon: 'icon-saoma'
+					icon: 'icon-saoma',
+					position: true,
+					background: 'red',
+					color: '#fff'
 				}, {
 					title: '你的',
-					icon: 'icon-jiantouyou'
+					icon: 'icon-saoma'
 				}, {
 					title: '他的',
 					icon: 'icon-Plus'
@@ -53,10 +56,11 @@ export default {
 				isFixed: false,
 				list: [{
 					title: '我的',
-					icon: 'icon-saoma'
+					icon: 'icon-saoma',
+					position: true
 				}, {
 					title: '你的',
-					icon: 'icon-jiantouyou'
+					icon: 'icon-saoma'
 				}, {
 					title: '他的',
 					icon: 'icon-Plus'
