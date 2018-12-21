@@ -9,7 +9,7 @@ npm install
 # 开发环境
 npm run dev
 
-# 编译
+# 编译项目
 npm run build
 
 # 编写文档
