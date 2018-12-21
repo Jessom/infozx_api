@@ -18,7 +18,7 @@ npm run docs:dev
 # 编译文档
 npm run docs:build
 
-# 编译项目 && 编译文档 && 提交码云
+# 编译项目 && 编译文档 && 提交码云 && 提交github
 npm run deploy
 # or
 bash deploy.sh
