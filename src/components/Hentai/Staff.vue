@@ -120,7 +120,7 @@ export default {
 				const childStaff = this.deepStaff(this.clicks[this.clicks.length-1])
 				this.staff = [ ...this.staff, ...childStaff ]
 			} else {
-				this.staff = this.clicks[this.clicks.length-1].staff
+				this.staff = this.clicks.length>0 ? this.clicks[this.clicks.length-1].staff : []
 			}
 		},
 
