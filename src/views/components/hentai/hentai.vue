@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import HentaiMain from '@/components/Hentai/Main.vue'
+import HentaiMain from '@/components/Hentai/Hentai.vue'
 export default {
 	created() {
 		setTimeout(() => {
@@ -132,7 +132,15 @@ export default {
                       isEnable: true,
                       describe: "小组",
                       children: [],
-                      staff: []
+                      staff: [
+                        {
+                          id: 101523,
+                          title: "嘻嘻哈",
+                          image:
+                            "http://61.155.203.44:60119/UpLoads/Street/infozx/837720760f1b7d5fcaa530e52331acd8.jpg",
+                          desc: "管理员"
+                        }
+                      ]
                     },
                     {
                       id: 15,

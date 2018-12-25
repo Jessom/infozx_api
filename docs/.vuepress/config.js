@@ -107,7 +107,7 @@ module.exports = {
         {
           title: 'hentai',
           collapsable: true,
-          children: [ 'hentai/Main' ]
+          children: [ 'hentai/Hentai', 'hentai/OkinaHentai' ]
         },
       ],
       '/utils/': [

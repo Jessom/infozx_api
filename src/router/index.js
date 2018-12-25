@@ -299,6 +299,11 @@ export default new Router({
       path: '/hentai',
       name: 'hentai',
       component: resolve => require(['@/views/components/hentai/hentai.vue'], resolve)
+    },
+    {
+      path: '/okinaHentai',
+      name: 'okinaHentai',
+      component: resolve => require(['@/views/components/hentai/okinaHentai.vue'], resolve)
     }
   ]
 })
