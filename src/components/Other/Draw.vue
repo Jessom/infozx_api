@@ -1,6 +1,6 @@
 <template>
   <div>
-    <canvas id='canvas' :height="opt.height"></canvas>
+    <canvas id='z-draw-canvas' :height="opt.height"></canvas>
   </div>
 </template>
  
@@ -11,6 +11,7 @@ export default {
       canvas: null,
       ctx: null,
       mousePressed: false,
+      offsetTop: 0
     }
   },
   props: {
@@ -25,14 +26,15 @@ export default {
         background: '#fff',
         lineWidth: 1,
         lineColor: '#000000',
-        height: 200
+        height: 200,
+        offsetTop: 0
       }
       return mui.extend({}, opt, this.options)
     }
   },
   mounted() {
     this.lastX, this.lastY
-    this.canvas = document.querySelector('#canvas')
+    this.canvas = document.querySelector('#z-draw-canvas')
     this.canvas.width = window.screen.width
     this.ctx = this.canvas.getContext('2d')
     this.setBackground();
@@ -46,8 +48,10 @@ export default {
         if (event.targetTouches.length == 1) {
           event.preventDefault();
           const touch = event.targetTouches[0];
+          // let ot = window.screen.height - this.offsetTop
+          const ot = self.opt.offsetTop || this.offsetTop
           self.mousePressed = true;
-          self.draw(touch.pageX - this.offsetLeft, touch.pageY - this.offsetTop, false);
+          self.draw(touch.pageX - this.offsetLeft, touch.pageY - ot, false);
         }
       }, false);
 
@@ -56,8 +60,10 @@ export default {
         if (event.targetTouches.length == 1) {
           event.preventDefault();
           const touch = event.targetTouches[0];
+          // let ot = window.screen.height - this.offsetTop
+          const ot = self.opt.offsetTop || this.offsetTop
           if(self.mousePressed) {
-            self.draw(touch.pageX - this.offsetLeft, touch.pageY - this.offsetTop, true);
+            self.draw(touch.pageX - this.offsetLeft, touch.pageY - ot, true);
           }
         }
       }, false);

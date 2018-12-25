@@ -67,6 +67,9 @@ export default {
 |lineWidth|Number|1|线条粗细|
 |lineColor|String|#000|线条颜色|
 |height|Number|200|canvas高度|
+|offsetTop|Number|0|当`签名组件在某些弹出容器中`，必须传入该值，应获取`当前canvas距离顶部的距离`|
+
+- offsetTop: `document.querySelector('.z-draw-canvas').offsetTop`
 
 ## ref
 |事件|参数|说明|

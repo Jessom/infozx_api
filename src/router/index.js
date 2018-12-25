@@ -5,6 +5,11 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
+    {
+      path: '/test',
+      name: 'test',
+      component: resolve => require(['@/views/test.vue'], resolve)
+    },
     // button
     {
       path: '/',
