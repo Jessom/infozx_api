@@ -1,43 +1,38 @@
 <template>
 	<div class="test">
-		<SidePanel :options='panel'>
-			<draw :options='options' ref='draw' />
-		</SidePanel>
-
-		<button @tap='test'>打开</button>
-
-		<!-- <draw :options='options' ref='draw2' /> -->
+		<map-wrap @onFinsh='onFinsh' />
 	</div>
 </template>
 
 <script>
-import Draw from '@/components/Other/Draw.vue'
-import SidePanel from '@/components/Other/SidePanel.vue'
+import MapWrap from '@/components/Map/Map.vue'
+import * as amap from '@/common/js/v2/amap'
+import * as geo from '@/common/js/v2/geolocation'
 export default {
 	data() {
 		return {
-			options: {
-				background: '#ffffff',
-				lineWidth: 1,
-				lineColor: '#000000',
-				height: 'auto',
-				offsetTop: 0
-			},
-			panel: {
-				id: 'panel',
-				style: 'bottom'
-			},
+			
 		}
 	},
 	methods: {
-		test() {
-			mui('#panel').popover('toggle')
-			this.options['offsetTop'] = document.querySelector('#panel').offsetTop
+		onFinsh(map) {
+			console.log(map)
+			// geo.amapLocation(map).then(pos => console.log(pos))
+			geo.browserLocation().then(pos => {
+				console.log(pos)
+				return pos
+				// amap.addMarker(map, pos)
+			}).then(pos => {
+				return geo.transformCoord({ lng: pos[0], lat: pos[1] })
+			}).then(pos => {
+				console.log(pos)
+				amap.addMarker(map, pos)
+				amap.addCricle(map, pos)
+			})
 		}
 	},
 	components: {
-		Draw,
-		SidePanel
+		MapWrap
 	}
 }
 </script>
