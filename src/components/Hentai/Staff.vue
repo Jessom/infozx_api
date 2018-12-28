@@ -12,10 +12,8 @@
 							:key='item.id'>
 							<a
 								:class="{
-									'mui-navigate-right': (item.staff && 
-																				item.staff.length) ||
-																				(item.children &&
-																				item.children.length)
+									'mui-navigate-right': (item.staff && item.staff.length) ||
+																				(item.children && item.children.length)
 								}"
 								@tap='cellclick(item)'>{{ item.title }}</a>
 						</li>
@@ -115,7 +113,9 @@ export default {
 		includeEvent() {
 			if(this.actived.length > 0) return
 
-			this.include = this.staff.length ? !this.include : false
+			if(this.clicks.length <= 0) return
+			// this.include = this.staff.length ? !this.include : false
+			this.include = !this.include
 			if(this.include) {
 				const childStaff = this.deepStaff(this.clicks[this.clicks.length-1])
 				this.staff = [ ...this.staff, ...childStaff ]
