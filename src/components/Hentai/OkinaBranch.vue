@@ -14,7 +14,7 @@
 			</div>
 		</div>
 
-		<div class="mui-input-group">
+		<div class="mui-input-group z-branch-group">
 			<div
 				class="mui-input-row mui-checkbox mui-left"
 				:class='{
@@ -59,19 +59,36 @@ export default {
 			if(item.children && !item.children.length) return
 
 			// 选择部门后，不能选择下一部门
-			if(this.actived.length > 0) return
-
-			// 包含子部门，不能进入下一部门
-			if(this.include) return
+			// if(this.actived.length > 0) return
 
 			// 已选该项，并且包含子部门
-			if(item.include) return
+			// if(item.include) return
+
+			// 包含子部门，不能进入下一部门
+			// if(this.include) return
+			this.clearCheckBox()
 
 			// 添加历史记录
 			this.history.push(this.branch)
 			// 滚动区域返回顶部
 			mui('.z-hentai-sc').scroll().scrollTo(0,0,0)
 			this.init(item.children)
+		},
+
+		/**
+		 * 清除 input checkbox 选中状态
+		 */
+		clearCheckBox() {
+			// 将包含子部门改为 false
+			this.include = this.include ? false : false
+			// 当有选中部门的情况下，清空选中状态
+			if(this.actived.length > 0) {
+				mui('.z-branch-group input[type="checkbox"]').each((ind, item) => {
+					item.checked = false
+				})				
+			}
+			// 情况选中部门
+			this.actived = []
 		},
 
 		/**

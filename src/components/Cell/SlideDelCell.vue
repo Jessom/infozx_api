@@ -10,7 +10,7 @@
 					<a
 						class="mui-btn"
 						:class='[item.deleteBg?item.deleteBg:"mui-btn-red"]'
-						@tap.stop='onDelect($event, item, i)'>{{item.deleteText?item.deleteText:"删除"}}</a>
+						@tap.stop='onDelect($event, item, ind)'>{{item.deleteText?item.deleteText:"删除"}}</a>
 				</div>
 				<a href="javascript:;" class="mui-clearfix mui-slider-handle" :class='{"mui-navigate-right":opt.showRightNav}'>
 					<img class="mui-media-object mr10" :class='{"radius50": opt.isRadius}' :src="item.image" v-if='opt.showAvatar && item.image'>

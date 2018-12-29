@@ -94,10 +94,13 @@ export default {
 				const branch = this.$refs.branch
 
 				// 包含子部门，不能返回上一部门
-				if(branch.include) return
+				// if(branch.include) return
+				branch.include = branch.include ? false : false
 
 				// 选择成员后，不能返回上一部门
-				if(branch.actived.length > 0) return
+				// if(branch.actived.length > 0) return
+				branch.clearCheckBox()
+				branch.actived = []
 
 				// 渲染部门历史记录
 				const history = branch.history
@@ -112,10 +115,14 @@ export default {
 				const staff = this.$refs.staff
 
 				// 选择子成员，不能返回上一级
-				if(staff.include) return
+				// if(staff.include) return
+				staff.include = staff.include ? false : false
 
 				// 选中成员，不能返回上一级
-				if(staff.actived.length > 0) return
+				// if(staff.actived.length > 0) return
+				// 将选中成员清空
+				staff.clearCheckBox()
+				staff.actived = []
 
 				// 渲染成员历史记录
 				const history = staff.history

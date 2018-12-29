@@ -38,7 +38,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="mui-input-group">
+					<div class="mui-input-group z-include-group">
 						<div
 							class="mui-input-row mui-checkbox mui-left"
 							v-for='(item, ind) in staff'
@@ -98,12 +98,19 @@ export default {
 				!(item.children && item.children.length)) return
 
 			// 选择成员后，不能进入下级
-			if(this.actived.length > 0) return
+			// if(this.actived.length > 0) return
+			
+			if(item.include) return
 
 			// 选择子成员
-			if(this.include) return
+			// if(this.include) return
+			if(this.include) {
+				this.staff = this.clicks[this.clicks.length-1].staff
+				this.include = false
+			}
 
-			if(item.include) return
+			this.clearCheckBox()
+			this.actived = []
 
 			// 保存历史记录
 			this.history.branch.push(this.branch)
@@ -112,6 +119,18 @@ export default {
 			// 当前部门是否被选中
 			this.select = item.select || false
 			this.init(item.children, item.staff)
+		},
+
+		/**
+		 * 清除 input checkbox 选中状态
+		 */
+		clearCheckBox() {
+			// 当有选中成员的情况下，清空选中状态
+			if(this.actived.length > 0) {
+				mui('.z-include-group input[type="checkbox"]').each((ind, item) => {
+					item.checked = false
+				})				
+			}
 		},
 
 		/**
